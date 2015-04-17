@@ -1,0 +1,26 @@
+-------------------------
+Requirements
+-------------------------
+Install LAMP
+Install Zend
+include zend library at include_path in php.ini
+
+-------------------------
+Installation
+-------------------------
+1) copy paste the source in your root directory eg : /var/www/html/tabtor
+2) open .htaccess change the root path replacing yours in "RewriteBase"
+3) add your mysql configuration in application/configs/application.ini
+4) upload DB file tabtor.sql in your system
+
+-------------------------
+Run
+-------------------------
+http://your-server/tabtor/user/1
+http://your-server/tabtor/user/2
+
+
+-------------------------
+More Info
+-------------------------
+please check the flow chart of the application in "tabtor_flow_chart.png"
